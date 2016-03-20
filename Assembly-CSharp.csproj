@@ -48,6 +48,7 @@
      <Compile Include="Assets\GameStateController.cs" />
      <Compile Include="Assets\GraphicController.cs" />
      <Compile Include="Assets\Pickup.cs" />
+     <Compile Include="Assets\PickupCollider.cs" />
      <Compile Include="Assets\PlayerController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

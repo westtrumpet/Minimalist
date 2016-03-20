@@ -23,14 +23,12 @@ public class GameStateController : MonoBehaviour {
 	
 	void AddPickup() {
 		if(pickupsIndex < Pickups.Length) {
-			Pickups[pickupsIndex] = Instantiate(PickupPrefab, new Vector3(400, 450, 0), PickupPrefab.transform.rotation) as GameObject; 
+			Pickups[pickupsIndex] = Instantiate(PickupPrefab, new Vector3(500, 50, 0), PickupPrefab.transform.rotation) as GameObject; 
 			pickupsIndex++;
 		}
 	}
 
 	void Update() {
-		for (int i = 0; i < pickupsIndex; i++) {
-			if(Pickups[pickupsIndex].GetComponent<Pickup>().PickedUp)
-		}
+
 	}
 }

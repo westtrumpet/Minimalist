@@ -6,6 +6,7 @@ using System.Collections;
 public class GraphicController : MonoBehaviour {
 
 	public PlayerController Player;
+	public Camera mainCamera;
 	GameObject PlayerObject;
 	SpriteRenderer playerImage;
 
@@ -50,6 +51,7 @@ public class GraphicController : MonoBehaviour {
 
 	void ChangePlayerColor(Vector3 NewColor) {
 		playerImage.color = new Color(NewColor.x, NewColor.y, NewColor.z, 1.0f);
+		mainCamera.backgroundColor = new Color(NewColor.x, NewColor.y, NewColor.z, 1.0f);
 	}
 
 	public void Increment(string ColorBar, float NumIncrement) {

@@ -26,7 +26,7 @@ public class Pickup : MonoBehaviour{
 		}
 	}
 
-	void OnTriggerEnter() {
-		PickedUp = true;
+	void FixedUpdate() {
+		transform.Rotate(new Vector3(0.0f, 0.0f, 2.0f));
 	}
 }

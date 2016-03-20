@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Pickup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PickupCollider.cs">
     <Files>
-      <File FileName="Assets\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\GraphicController.cs" Line="49" Column="5" />
-      <File FileName="Assets\GameStateController.cs" Line="33" Column="61" />
-      <File FileName="Assets\Pickup.cs" Line="30" Column="19" />
+      <File FileName="Assets\PickupCollider.cs" Line="6" Column="23" />
+      <File FileName="Assets\GameStateController.cs" Line="26" Column="71" />
+      <File FileName="Assets\PlayerController.cs" Line="70" Column="3" />
+      <File FileName="Assets\GraphicController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pickup.cs" Line="30" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
