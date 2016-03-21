@@ -5,7 +5,6 @@ public class Pickup : MonoBehaviour{
 
 	public string ColorType;
 	public float PickupValue;
-	public bool PickedUp = false;
 
 	SpriteRenderer sprite;
 

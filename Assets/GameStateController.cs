@@ -29,6 +29,12 @@ public class GameStateController : MonoBehaviour {
 	}
 
 	void Update() {
-
+		if(Player.Collider.PickedUp) {
+			Vector3 temp = Player.Collider.PickupColliderStats();
+			Graphics.Increment("Red", temp.x);
+			Graphics.Increment("Green", temp.y);
+			Graphics.Increment("Blue", temp.z);
+			Player.Collider.Reset();
+		}
 	}
 }

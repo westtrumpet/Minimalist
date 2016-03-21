@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\GameStateController.cs" />
      <Compile Include="Assets\GraphicController.cs" />
+     <Compile Include="Assets\Path.cs" />
      <Compile Include="Assets\Pickup.cs" />
      <Compile Include="Assets\PickupCollider.cs" />
      <Compile Include="Assets\PlayerController.cs" />

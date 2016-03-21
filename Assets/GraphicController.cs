@@ -43,12 +43,6 @@ public class GraphicController : MonoBehaviour {
 		ChangeBarFill("Blue");
 	}
 
-	/*void Update() {
-		ChangeBarFill("Red");
-		ChangeBarFill("Green");
-		ChangeBarFill("Blue");
-	}*/
-
 	void ChangePlayerColor(Vector3 NewColor) {
 		playerImage.color = new Color(NewColor.x, NewColor.y, NewColor.z, 1.0f);
 		mainCamera.backgroundColor = new Color(NewColor.x, NewColor.y, NewColor.z, 1.0f);

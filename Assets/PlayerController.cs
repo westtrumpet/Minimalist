@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
 	public float forceMult;
 	public bool DebugOn = false;
 
+	public PickupCollider Collider;
 	Rigidbody2D PlayerPhysics;
 	Vector2 cursorStart;
 	Vector2 cursorEnd;
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour {
 	
 
 	void Start() {
+		Collider = Player.GetComponent<PickupCollider>();
 		PlayerPhysics = Player.GetComponent<Rigidbody2D>();
 		if(isMobile){
 			Input.multiTouchEnabled = false;
