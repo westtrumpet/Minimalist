@@ -10,10 +10,14 @@ public class Pickup : MonoBehaviour{
 
 	string[] Colors = new string[3] {"Red", "Green", "Blue"};
 
+	public GameObject PickupPath; //Attach a path prefab to determine
+	public float speed;
+
 	void Start() {
 		sprite = GetComponent<SpriteRenderer>();
 		ColorType = Colors[Random.Range(0, 3)];
 		PickupValue = Random.value;
+		speed = PickupValue * 4;
 		if (ColorType == "Red") {
 			sprite.color = new Color(PickupValue, 0.0f, 0.0f, 1.0f);
 		}
@@ -26,6 +30,6 @@ public class Pickup : MonoBehaviour{
 	}
 
 	void FixedUpdate() {
-		transform.Rotate(new Vector3(0.0f, 0.0f, 2.0f));
+		transform.Rotate(new Vector3(0.0f, 0.0f, speed));
 	}
 }
