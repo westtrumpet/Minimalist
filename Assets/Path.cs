@@ -16,7 +16,7 @@ public class Path : MonoBehaviour {
 	public LineRenderer LinePath;
 
 	void Start() {
-		debugRect.sizeDelta = new Vector2((float) Screen.width, (float) height);
+		debugRect.sizeDelta = new Vector2(0.0f, (float) height);
 		debugRect.localPosition = new Vector3(0.0f, -300 + vertOffset, 0.0f);
 		LinePath.SetVertexCount(vertices.Length);
 		drawPath();

@@ -45,6 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BoundaryScaler.cs" />
+     <Compile Include="Assets\CameraResize.cs" />
+     <Compile Include="Assets\CanvasResize.cs" />
      <Compile Include="Assets\GameStateController.cs" />
      <Compile Include="Assets\GraphicController.cs" />
      <Compile Include="Assets\Path.cs" />
