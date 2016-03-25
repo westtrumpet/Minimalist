@@ -45,15 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BoundaryScaler.cs" />
-     <Compile Include="Assets\CameraResize.cs" />
-     <Compile Include="Assets\CanvasResize.cs" />
-     <Compile Include="Assets\GameStateController.cs" />
-     <Compile Include="Assets\GraphicController.cs" />
-     <Compile Include="Assets\Path.cs" />
-     <Compile Include="Assets\Pickup.cs" />
-     <Compile Include="Assets\PickupCollider.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\BoundaryScaler.cs" />
+     <Compile Include="Assets\Scripts\CameraResize.cs" />
+     <Compile Include="Assets\Scripts\CanvasResize.cs" />
+     <Compile Include="Assets\Scripts\GameStateController.cs" />
+     <Compile Include="Assets\Scripts\GraphicController.cs" />
+     <Compile Include="Assets\Scripts\Path.cs" />
+     <Compile Include="Assets\Scripts\Pickup.cs" />
+     <Compile Include="Assets\Scripts\PickupCollider.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
