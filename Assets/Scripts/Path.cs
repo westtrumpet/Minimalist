@@ -24,10 +24,9 @@ public class Path : MonoBehaviour {
 		drawPath();
 	}
 
-	public Vector2 startPath() {
+	public void startPath() {
 		currentVertexIndex = 0;
 		currentVertex = vertices[0];
-		return currentVertex;
 	}
 
 	public Vector2 nextVertex() {
@@ -42,13 +41,9 @@ public class Path : MonoBehaviour {
 	}
 
 	public void drawPath() {
-		Debug.Log("Screen Width: " + Screen.width);
 		for (int i = 0; i < vertices.Length; i++) {
 			LinePath.SetPosition(i, new Vector3((float)(vertices[i].x - .5) * (float) (Screen.width), (float)(vertices[i].y - .5) * height + (float) vertOffset - (float) (Screen.height / 2), 0.0f));
 			pathToScreenVertices[i] = new Vector2((float)(vertices[i].x - .5) * (float) (Screen.width), (float)(vertices[i].y - .5) * height + (float) vertOffset - (float) (Screen.height / 2));
 		}
-		Debug.Log("Screen Width: " + Screen.width);
 	}
-
-	
 }

@@ -8,7 +8,7 @@ public class GameStateController : MonoBehaviour {
 	public GameObject[] Pickups;
 	public GameObject PickupPrefab;
 
-	int pickupsIndex;
+	public int pickupsIndex;
 	public int maxPickups;
 
 	void Start() {
@@ -22,6 +22,7 @@ public class GameStateController : MonoBehaviour {
 	}
 	
 	void AddPickup() {
+		Debug.Log("Adding pickup");
 		if(pickupsIndex < Pickups.Length) {
 			Pickups[pickupsIndex] = Instantiate(PickupPrefab, new Vector3(0, 100, 0), PickupPrefab.transform.rotation) as GameObject; 
 			pickupsIndex++;

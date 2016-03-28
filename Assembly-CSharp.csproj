@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\GameStateController.cs" />
      <Compile Include="Assets\Scripts\GraphicController.cs" />
      <Compile Include="Assets\Scripts\Path.cs" />
+     <Compile Include="Assets\Scripts\PathSelector.cs" />
      <Compile Include="Assets\Scripts\Pickup.cs" />
      <Compile Include="Assets\Scripts\PickupCollider.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
